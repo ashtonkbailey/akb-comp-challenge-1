@@ -1,13 +1,28 @@
+article {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  flex-basis: 30%;
+}
+
 body {
 
 }
 
 .bio {
-
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
 }
 
 .bio-and-shops {
+  width: 60%;
+  height: 100vh;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .blankets {
@@ -31,11 +46,21 @@ h2 {
 }
 
 .image-side {
+  width: 40%;
   display: flex;
+  align-items: center;
 }
 
 .left-button {
+  float: left;
+}
 
+main {
+  display: flex;
+}
+
+.main-image {
+  height: 100vh;
 }
 
 .mittens {
@@ -43,7 +68,7 @@ h2 {
 }
 
 p {
-  
+
 }
 
 .patterns {
@@ -51,7 +76,7 @@ p {
 }
 
 .right-button {
-
+  float: right;
 }
 
 .scarves {
