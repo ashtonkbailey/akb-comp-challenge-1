@@ -1,52 +1,58 @@
 article {
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  flex-basis: 30%;
+  /*flex-basis: 30%;*/
+  font-size: 1em;
+  width: 15em;
 }
 
 body {
-
+  font-family: 'ABeeZee', sans-serif;
 }
 
 .bio {
-  flex-grow: 2;
+  /*flex-grow: 2;*/
   display: flex;
   flex-direction: column;
-  flex-basis: 60%;
+  /*flex-basis: 60%;*/
+  background-color: #EAC9C1;
+  color: #FFF;
+  width: 30em;
 }
 
 .bio-and-shops {
-  width: 60%;
+  width: 45em;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
 }
 
 .blankets {
-
+  background-color: #EAC9C1;
+  color: #FFF;
 }
 
 .contact {
-
+  color: #FFF;
 }
 
 .customs {
-
+  color: #FFF;
 }
 
 .hats {
-
+  background-color: #F7EAE7;
+  color: #FFF;
 }
 
 h2 {
-
+  font-size: 4em;
 }
 
 .image-side {
-  width: 40%;
+  width: 30em;
   display: flex;
   align-items: center;
 }
@@ -61,18 +67,21 @@ main {
 
 .main-image {
   height: 100vh;
+  min-width: 0;
 }
 
 .mittens {
-
+  background-color: #DED2CF;
+  color: #FFF;
 }
 
 p {
-
+  font-size: 2em;
 }
 
 .patterns {
-
+  background-color: #E7D5C9;
+  color: #FFF;
 }
 
 .right-button {
@@ -80,13 +89,16 @@ p {
 }
 
 .scarves {
-
+  background-color: #E1E3E3;
+  color: #FFF;
 }
 
 .socks {
-
+  background-color: #E1E3E3;
+  color: #FFF;
 }
 
 .supplies {
-
+  background-color: #E7D5C9;
+  color: #FFF;
 }
