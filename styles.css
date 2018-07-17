@@ -1,11 +1,17 @@
 article {
-  /*flex-grow: 1;*/
+  flex-grow: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*flex-basis: 30%;*/
+  flex-basis: 30%;
   font-size: 1em;
   width: 15em;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: 50%;
 }
 
 body {
@@ -13,17 +19,17 @@ body {
 }
 
 .bio {
-  /*flex-grow: 2;*/
+  flex-grow: 2;
   display: flex;
   flex-direction: column;
-  /*flex-basis: 60%;*/
+  flex-basis: 60%;
   background-color: #EAC9C1;
   color: #FFF;
   width: 30em;
 }
 
 .bio-and-shops {
-  width: 45em;
+  width: 60%;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -34,16 +40,19 @@ body {
   color: #FFF;
 }
 
-.catergory-icons {
-  
+button {
+  color: #FFF;
+  background-color: #EAC9C1;
+  border: solid 1px;
+  font-size: 1em;
+  margin: 0em 1em;
 }
 
-.contact {
-  color: #FFF;
-}
-
-.customs {
-  color: #FFF;
+.dots-icon {
+  opacity: 1.0;
+  position: absolute;
+  top: 1em;
+  right: 1em;
 }
 
 .hats {
@@ -52,13 +61,15 @@ body {
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .image-side {
-  width: 30em;
-  display: flex;
-  align-items: center;
+  width: 40%;
+}
+
+.left-arrow-icon {
+  opacity: 1.0;
 }
 
 .left-button {
@@ -70,8 +81,11 @@ main {
 }
 
 .main-image {
-  height: 100vh;
-  min-width: 0;
+  background-image: url("image/main-image.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .mittens {
@@ -80,12 +94,19 @@ main {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1em;
+  padding: 2em;
+  margin: 0em 2em;
+  text-align: center;
 }
 
 .patterns {
   background-color: #E7D5C9;
   color: #FFF;
+}
+
+.right-arrow-icon {
+  opacity: 1.0;
 }
 
 .right-button {
